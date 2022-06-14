@@ -1,0 +1,67 @@
+body{
+    background-image: url(tower.jpg);
+    padding:0;
+}
+.loginbox{
+    width: 30%;
+    height: auto;
+    background: #0000;
+    color: #fff;
+    top: 30%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%)
+    border: radius 20px;
+}
+.loginbox h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    color: #ed7821;
+    font-family: cooper;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 26px;
+    color: #fff;
+    font-family: cooper;
+    margin-bottom: 20px;
+}
+.loginbox input[type="email"],input[type="password"]
+{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.loginbox input[type="button"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: #ed7821;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.loginbox input[type="button"];:hover
+{
+    cursor: pointer;
+    background-color: #5c2ecc;
+    color:#fff;
+}
+.login a{
+    color:#fff;
+    font-size: 16px;
+}
+.loginbox a;hover{
+    color: orange;
+}
